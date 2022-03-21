@@ -13,9 +13,9 @@ public class HomeworkApp {
         int a = 15;
         int b = 6;
         if (a+b >= 0)
-            System.out.println("Positive");
+            System.out.println("SumPositive");
         else
-            System.out.println("Negative");
+            System.out.println("SumNegative");
     }
     public static void printColor() {
         int value = 2543;
@@ -26,4 +26,4 @@ public class HomeworkApp {
         else
             System.out.println("Yellow");
     }
-}  
+} 
