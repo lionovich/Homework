@@ -26,4 +26,4 @@ public class HomeworkApp {
         else
             System.out.println("Yellow");
     }
-}
+} 
