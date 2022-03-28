@@ -20,7 +20,7 @@ public class HomeworkApp2 {
         iterator("a burp is not an answer\n", 2);
         iterator("'non-flammable' is not a challenge\n", 3);
         iterator("i will not instigate revolution\n", 5);
-        System.out.println("\nTask 4\n");
+        System.out.println("\nTask 5\n");
         System.out.println(leapYear(1772));
         System.out.println(leapYear(2016));
         System.out.println(leapYear(1966));
