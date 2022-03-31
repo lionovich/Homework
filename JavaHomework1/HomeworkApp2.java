@@ -42,13 +42,13 @@ static boolean ifNegative(int d) {
     return (d < 0);  
 }
 
-static void iterator(String text, int e) {
-    for (int f = 0; f < e; f++) {
-        System.out.print(text);
+static void iterator(String text, int e) { 
+    for (int f = 0; f < e; f++) { 
+        System.out.print(text); // переменная f повторяется до тех пор, пока она меньше e. Так как в выоде мы не указываем числовую переменную, то повторяется только переменная text
     }
 }
 
 static boolean leapYear(int y) {
-    return ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0);
+    return ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0); // получаем остаток деления переменной y на 4 и на 100 и если он при делении на 4 = 0, но != 0 при делении на 100, год високосный. Если остаток при делении на 400 = 0, год високосный
 }
 }
