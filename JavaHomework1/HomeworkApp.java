@@ -19,10 +19,10 @@ class HomeworkApp {
             System.out.println("SumNegative");
     }
     static void printColor() {
-        int value = 2543;
+        int value = 0;
         if (value <= 0) 
             System.out.println("Red");
-        if (value > 100)
+        else if (value > 100)
             System.out.println("Green");
         else
             System.out.println("Yellow");
