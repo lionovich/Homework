@@ -2,7 +2,7 @@
 /**Java. Homework 2
  * 
  * @author Lionovich
- * @date 08.04.2022
+ * @date 12.04.2022
  */
 
 import java.util.Arrays;
