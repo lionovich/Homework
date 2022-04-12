@@ -6,6 +6,7 @@
  */
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class HomeworkApp3 {
     public static void main(String[] args) {
@@ -17,6 +18,8 @@ public class HomeworkApp3 {
         multiplyArray();
         System.out.println("\n\nTask 4\n");
         fillDiagonal();
+        System.out.println("\n\nTask 5\n");
+        inputArray();
     }
 
     /**
@@ -73,5 +76,25 @@ public class HomeworkApp3 {
             arr[j][j] = 1;
             System.out.println(Arrays.toString(arr[j]));
         }
+    }
+
+    /**
+     * Написать метод, принимающий на вход два аргумента: len и initialValue, и
+     * возвращающий
+     * одномерный массив типа int длиной len, каждая ячейка которого равна
+     * initialValue
+     */
+    static void inputArray() {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input array length \n");
+        int len = in.nextInt();
+        System.out.print("Input array value \n");
+        int initialValue = in.nextInt();
+        int[] arr = new int[len];
+        for (len = 0; len < arr.length; len++) {
+            arr[len] = initialValue;
+        }
+        System.out.println(Arrays.toString(arr));
+        in.close();
     }
 }
