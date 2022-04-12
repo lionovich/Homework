@@ -79,7 +79,7 @@ public class HomeworkApp3 {
     }
 
     /**
-     * 4. Написать метод, принимающий на вход два аргумента: len и initialValue, и
+     * 5. Написать метод, принимающий на вход два аргумента: len и initialValue, и
      * возвращающий
      * одномерный массив типа int длиной len, каждая ячейка которого равна
      * initialValue
@@ -90,11 +90,15 @@ public class HomeworkApp3 {
         int len = in.nextInt();
         System.out.print("Input array value \n");
         int initialValue = in.nextInt();
-        int[] arr = new int[len];
-        for (len = 0; len < arr.length; len++) {
-            arr[len] = initialValue;
-        }
-        System.out.println(Arrays.toString(arr));
         in.close();
+        System.out.println(Arrays.toString(createArray(len, initialValue)));
+    }
+
+    static int[] createArray(int len, int initialValue) {
+        int[] arr = new int[len];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = initialValue;
+        }
+        return arr;
     }
 }
