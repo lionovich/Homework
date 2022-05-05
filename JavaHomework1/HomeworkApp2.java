@@ -1,7 +1,7 @@
 /**Java. Homework 2
  * 
  * @author Lionovich
- * @date 27.03.2021
+ * @date 27.03.2022
  */
 
 public class HomeworkApp2 {
